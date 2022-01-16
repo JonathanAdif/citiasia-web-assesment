@@ -1,0 +1,40 @@
+.Profile{
+    width: 100%;
+    height: 400px;
+    background-color:#363636;
+}
+
+.profile1{
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+}
+
+
+
+.img-thumbnail{
+    width: 150px;
+    border-radius: 20px;
+}
+
+#pro{
+    padding-left: 50px;
+}
+
+#pro{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+@media screen  and (max-width: 640px) {
+    .Profile{
+        width: 640px;
+    }
+    .img-thumbnail{
+        width: 130px;
+        margin-left: 20px;
+    }
+    #pro{
+        padding-left: 20px;
+    }
+  }

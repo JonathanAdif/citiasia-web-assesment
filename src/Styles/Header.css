@@ -1,0 +1,68 @@
+.Header{
+    background-color: #171e28;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+    opacity: 0.9;
+  }
+
+.Header1{
+    margin:0;
+    height: 90px;
+    width: 100%;
+}
+
+.logociti{
+    width: 200px;
+}
+
+.nav1{
+    padding-bottom: 20px;
+}
+
+.tbh{
+    /* border: solid black 1px; */
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.nav1{
+    margin-left: 60px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav1:hover{
+    color:#0c76be ;
+}
+
+.nav2{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav2:hover{
+    color:#0c76be ;
+}
+
+.nav3{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav3:hover{
+    color:#0c76be ;
+}
+
+@media screen  and (max-width: 670px) {
+    .Header{
+        width: 100%;
+        position: none;
+    }
+}
